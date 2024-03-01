@@ -18,40 +18,40 @@ const Footer = () => {
       <div className='Flex flex-wrap right-content'>
         <div>
           <p className='fw700'>Company</p>
-          <p><Link to="" className='link'>About Us</Link></p>
-          <p> <Link to="" className='link'>We’re Hiring</Link></p>
-          <p><Link to="" className='link'>Investors</Link></p>
-          <p><Link to="" className='link'>Contact</Link></p>
+          <p><Link to="/task" className='link'>About Us</Link></p>
+          <p> <Link to="/task" className='link'>We’re Hiring</Link></p>
+          <p><Link to="/task" className='link'>Investors</Link></p>
+          <p><Link to="/task" className='link'>Contact</Link></p>
         </div>
         <div>
           <p className='fw700'>solutions</p>
-          <p><Link to="" className='link'>Customer Lead Generation</Link></p>
-          <p><Link to="" className='link'>Customer Retention Boost</Link></p>
-          <p><Link to="" className='link'>Reputation Manageent</Link></p>
-          <p><Link to="" className='link'>Marketing Automation</Link></p>
-          <p><Link to="" className='link'>PartnerUp Network </Link></p>
+          <p><Link to="/task" className='link'>Customer Lead Generation</Link></p>
+          <p><Link to="/task" className='link'>Customer Retention Boost</Link></p>
+          <p><Link to="/task" className='link'>Reputation Manageent</Link></p>
+          <p><Link to="/task" className='link'>Marketing Automation</Link></p>
+          <p><Link to="/task" className='link'>PartnerUp Network </Link></p>
           
         </div>
         <div>
           <p className='fw700'>Resources</p>
-          <p><Link to="" className='link'>Blog</Link></p>
-          <p><Link to="" className='link'>Videos</Link></p>
-          <p><Link to="" className='link'>Case Studies</Link></p>
-          <p><Link to="" className='link'>Marketplace</Link></p>
-          <p><Link to="" className='link'>Industries</Link></p>
+          <p><Link to="/task" className='link'>Blog</Link></p>
+          <p><Link to="/task" className='link'>Videos</Link></p>
+          <p><Link to="/task" className='link'>Case Studies</Link></p>
+          <p><Link to="/task" className='link'>Marketplace</Link></p>
+          <p><Link to="/task" className='link'>Industries</Link></p>
 
         </div>
         <div>
           <p className='fw700'>Help</p>
-          <p><Link to="" className='link'>Support</Link></p>
-          <p><Link to="" className='link'>Knowledge Base</Link></p>
-          <p><Link to="" className='link'>Live Chat</Link></p>
+          <p><Link to="/task" className='link'>Support</Link></p>
+          <p><Link to="/task" className='link'>Knowledge Base</Link></p>
+          <p><Link to="/task" className='link'>Live Chat</Link></p>
         </div>
         <div>
           <p className='fw700'>Partners</p>
-          <p><Link to="" className='link'>Development Partners</Link></p>
-          <p><Link to="" className='link'>Affiliate Program</Link></p>
-          <p><Link to=""className='link' >Partner Offers</Link></p>
+          <p><Link to="/task" className='link'>Development Partners</Link></p>
+          <p><Link to="/task" className='link'>Affiliate Program</Link></p>
+          <p><Link to="/task"className='link' >Partner Offers</Link></p>
 
         </div>
       </div>

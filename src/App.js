@@ -7,7 +7,7 @@ function App() {
       <BrowserRouter>
       <Homepage/>
       <Routes>
-        <Route path="/" components={<Homepage/>}/>
+        <Route path="task" components={<Homepage/>}/>
       </Routes> 
       </BrowserRouter>
    
