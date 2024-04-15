@@ -1,30 +1,68 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import {Container, Col, Row, Stack} from 'react-bootstrap'
+import location from '../assets/Images/location.svg'
+import msg from '../assets/Images/msg.svg'
+import Call from '../assets/Images/Call.svg'
+import facebook from '../assets/Images/facebook.svg'
+import Youtube from '../assets/Images/Youtube.svg'
+import twitter from '../assets/Images/twitter.svg'
+import Whatsapp from '../assets/Images/Watsapp.svg'
+import Linkedin from '../assets/Images/linkedin.svg'
 import Logo from '../assets/Images/logo.svg'
-import { Link } from 'react-router-dom'
-import searchIcon from '../assets/Images/searchIcon.svg'
-import menuIcon from '../assets/Images/menuIcon.svg'
-
+import DownArrow from '../assets/Images/downArrow.svg'
+import CategoryIcon from '../assets/Images/CategoryIcon.svg'
+import purplecircle from '../assets/Images/purplecircle.svg'
+import Cart from '../assets/Images/Cart.svg'
+import WishlistIcon from '../assets/Images/WishlistIcon.svg'
 const Navbar = () => {
+let num = 3323.2323;
+console.log(Math.trunc(num));
   return (
-    <div className='NavBlock Flex'>
-        <div className='NavContent Flex'>
-            <div><img src={Logo}/></div>
-            <div className='Flex'>
-              <img src={searchIcon} className='searchIcon d-sm-none'/>
-              <img src={menuIcon} className='d-sm-none'/>
-            </div>
-            <div className='Flex NavContent_menu d-none d-sm-flex'>
-                <Link>Solutions</Link>
-                <Link>Pricing</Link>
-                <Link>Testimonials</Link>
-                <Link>Resources</Link>
-            </div>
-            <div className='NavContent_Left Flex d-none d-sm-flex'>
-                <button className='btn btn-primary' style={{background:'transparent', border:'2px solid #4C70F0', color:'#4C70F0'}}>Log in </button>
-                <button className='btn btn-primary ms-1' style={{background:'#4C70F0', color:'#ffffff'}}>Sign Up for Free</button>
-            </div>
-        </div>
-    </div>
+    <Container  className='nav-Block m-0 ' fluid>
+      <Row className='upperContent'>
+        <Col sm={6} className="p-0 m-0">
+        <p className='info'><img src={location}/> 589 5th Ave, NY 10024, USA</p>
+        <p className='info'><img src={msg}/>info@skillgrodemo.com</p>
+        </Col>
+        <Col sm={6} className='text-end m-0 p-0'>
+          <p><img src={Call}/>Call us:+123 599 8989</p>
+          <p>Follow Us On :
+            <img src={facebook}/>
+            <img src={twitter}/>
+            <img src={Whatsapp}/>
+            <img src={Linkedin}/>
+            <img src={Youtube}/>
+          </p>
+        </Col>
+      </Row>
+      <Row className='nav-LowerContent '>
+        <Col sm={6} className='LowerContent-left d-flex p-0'>
+        <img className='logo' src={Logo}/>
+          <ul>
+            <li>Home <img src={DownArrow}DclassName='DownArrow'/></li>
+            <li>Courses <img src={DownArrow} className='DownArrow'/></li>
+            <li>Pages <img src={DownArrow} className='DownArrow'/></li>
+            <li>Shop <img src={DownArrow} className='DownArrow'/></li>
+            <li>Blog <img src={DownArrow} className='DownArrow'/></li>
+          </ul>
+        </Col>
+        <Col sm={6} className='LowerContent-right d-flex p-0'>
+          <div className='searchBar d-flex'>
+            <img src={CategoryIcon}/>
+            <span>Categories</span>
+            <img src={DownArrow} className='DownArrow'/>
+            <input placeholder='Search For Course . . .'/>
+            <img src={purplecircle}/>
+          </div>
+          <div className='user'>
+            <img src={WishlistIcon} alt="WishlistIcon" className='WishlistIcon'/>
+            <img src={Cart} className='Cart'/>
+            <button className='btn'>Log in</button>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   )
 }
 
