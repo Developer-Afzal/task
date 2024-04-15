@@ -1,16 +1,9 @@
-import Homepage from "./Pages/Homepage";
-import './assets/Styles.css'
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Routing from './Routing';
+import './assets/Styles.scss'
 function App() {
   return (
-    <>
-      <BrowserRouter>
-      <Homepage/>
-      <Routes>
-        <Route path="task" components={<Homepage/>}/>
-      </Routes> 
-      </BrowserRouter>
-   
+    <> 
+    <Routing/>
     </>
   );
 }
