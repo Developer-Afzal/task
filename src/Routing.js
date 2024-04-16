@@ -7,6 +7,7 @@ const Routing = () => {
     <BrowserRouter>
         <Routes>
             <Route path='/task' element={<Layout/>}>
+              <Route index element={<Homepage/>}/>
             </Route>
         </Routes>
     </BrowserRouter>
