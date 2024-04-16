@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/task/static/css/main.b5dd521c.css",
-    "main.js": "/task/static/js/main.0a276091.js",
+    "main.css": "/task/static/css/main.20ef803f.css",
+    "main.js": "/task/static/js/main.014719e1.js",
     "static/js/453.e52305e5.chunk.js": "/task/static/js/453.e52305e5.chunk.js",
+    "static/media/ReftBanner.png": "/task/static/media/ReftBanner.4b5d8cad7b26592c0dc9.png",
     "static/media/logo.svg": "/task/static/media/logo.71a822a20820f8bcc4c9a602b8819964.svg",
     "static/media/CategoryIcon.svg": "/task/static/media/CategoryIcon.335321d80b074e383f262dde91b9593d.svg",
     "static/media/Call.svg": "/task/static/media/Call.7fe34306b3fb121a8c16d2da2506949a.svg",
@@ -11,19 +12,19 @@
     "static/media/purplecircle.svg": "/task/static/media/purplecircle.48ac14ed31ee9650c4f28216c1b2de67.svg",
     "static/media/Watsapp.svg": "/task/static/media/Watsapp.2e5a0bc91e6e4d0c06fb980565a30aa4.svg",
     "static/media/msg.svg": "/task/static/media/msg.4014b46be623f079024c5864cf973ac9.svg",
+    "index.html": "/task/index.html",
     "static/media/twitter.svg": "/task/static/media/twitter.21c9df35ecd2d9d095789ce064c0d3d0.svg",
     "static/media/WishlistIcon.svg": "/task/static/media/WishlistIcon.9f9638805c8d34828941f0b53e958e8b.svg",
-    "index.html": "/task/index.html",
     "static/media/downArrow.svg": "/task/static/media/downArrow.1ced47dd05c502f1c862b205940eca84.svg",
     "static/media/Youtube.svg": "/task/static/media/Youtube.93d7a68d82987aca396968c41260c011.svg",
     "static/media/linkedin.svg": "/task/static/media/linkedin.2f429e15325668bcab590e9419708e4a.svg",
     "static/media/facebook.svg": "/task/static/media/facebook.abecd3cdcdb7a442fcac4282a68b1f4b.svg",
-    "main.b5dd521c.css.map": "/task/static/css/main.b5dd521c.css.map",
-    "main.0a276091.js.map": "/task/static/js/main.0a276091.js.map",
+    "main.20ef803f.css.map": "/task/static/css/main.20ef803f.css.map",
+    "main.014719e1.js.map": "/task/static/js/main.014719e1.js.map",
     "453.e52305e5.chunk.js.map": "/task/static/js/453.e52305e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5dd521c.css",
-    "static/js/main.0a276091.js"
+    "static/css/main.20ef803f.css",
+    "static/js/main.014719e1.js"
   ]
 }
