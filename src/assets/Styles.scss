@@ -4,6 +4,9 @@
     $Gray: #8D9DB5;
     $yellow: #FFC224;
     $lightGray: #D3D2DF;
+    $lightBlue:#EFEEFE;
+    $brandBg:#06042E;
+    $WhiteColor:#ffffff;
 
     * {
         margin: 0;
@@ -15,23 +18,62 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 36px;
-        line-height: 48px;
         letter-spacing: -0.75px;
         text-transform: capitalize;
         color: #161439;
     }
 
+    .medium{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #5751E1;
+        background-color: $lightBlue;
+        display: inline;
+        padding: 5px 10px;
+        border-radius:30px;
+    }
+
+    .Regular{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6C80;
+
+
+    }
+
+
+
     .BlueButton {
         background-color: $purple;
-        width: 202.22px;
-        height: 49.91px;
+        max-width: 230px;
+        padding: 6px 20px;
+        font-size: 16px;
         background: #5751E1;
         box-shadow: 4px 6px 0px #050071;
         border-radius: 50px;
         color: #fff;
     }
 
+        .circulur-button {
+            width: 50px;
+            padding: 12.5px 0;
+            background: #FFC224;
+            border: 1px solid #333333;
+            box-shadow: 2px 4px 0px #382900;
+            border-radius: 25px;
+    
+        }
+        .yellowBg {
+            background-image: url('../assets/Images/yellowBg.png');
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+        }
     img {
         cursor: pointer;
     }
@@ -168,11 +210,7 @@
                 }
             }
 
-            .yellowBg {
-                background-image: url('../assets/Images/yellowBg.png');
-                background-size: auto 100%;
-                background-repeat: no-repeat;
-            }
+            
 
             p {
                 padding: 0 0 34px 0;
@@ -190,3 +228,133 @@
 
 
     }
+
+
+
+/// =====  Category Styling Starts here =========/////
+
+.category-section{
+    .category-Block{
+        padding: 120px 0 0 0 ;
+        .Category-itmBlock{
+            margin-top: 14px;
+            padding: 45px;
+            background-color: #F7F7F9;
+            border-radius: 500px;
+            gap: 2.8%;
+    
+        }
+        .Category-itmBlock > div{
+            width: 150px;
+        }
+        
+    }
+    .brandAd-section{
+        background-color: $brandBg;
+        padding: 20px 0;
+        margin-top: 120px;
+    }
+}
+
+.LiveClass-section{
+    margin-top: 120px;
+    .Left-Block{
+        padding: 0 70px 0 0;
+    }
+    .Right-Block{
+        p{
+            span{
+                padding: 0 25px;
+                color: $WhiteColor;
+            }
+        }
+        ul{
+            padding: 22px 0 40px 0;
+        }
+       
+    }
+    .Right-Block p:nth-child(2){
+        margin-bottom: 12px;
+        margin-top: 14px;
+    }
+}
+
+.course-Section{
+    margin-top: 120px;
+    padding: 120px 12.5%;
+    background: linear-gradient(299deg, rgba(245, 231, 240, 0.9754026611) 0%, rgba(192, 192, 221, 0.8493522409) 100%, rgba(22, 20, 57, 0.6840861345) 100%);
+    ul{
+        padding: 40px 0 14px 0;
+        gap: 34px;
+        width: 690px;
+        border-bottom: 2px solid $Gray;
+        li{
+            cursor: pointer;
+        }
+    }
+    .course-item{
+        text-align: left;
+        background-color: $WhiteColor;
+        height: auto;
+        border-radius: 10px;
+        padding: 26px;
+        border: 1px solid $Gray;
+        margin: 0 10px;
+        button{
+            width: 133px;
+            height: 40px;
+            font-size: 14px;
+            
+
+background: #FFC224;
+border: 1px solid #000000;
+box-shadow: 4px 4px 0px #3D3D3D;
+border-radius: 50px;
+color: #161439;
+
+
+
+        }
+    }
+    .card-block{
+        padding: 50px  0 0 0;
+        gap: 30px;
+        p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+
+
+        }
+    }
+
+}
+.fotter-section{
+.upper-block{
+    padding: 95px 100px;
+    line-height: 28px;
+    justify-content: space-between;
+    background-color: $brandBg;
+   div > p{
+        color: #B2BBCC;
+    }
+    div .social-icon{
+        margin-top: 18px;
+        gap: 15px;
+    }
+    .heading{
+        color: $WhiteColor;
+        font-size: 22px;
+        font-family: poppins;
+    }
+}
+.lower-block{
+    padding: 35px 100px;
+    color: #8C9AB4;
+    background: #1C1A4A;
+
+
+}
+}
