@@ -21,11 +21,11 @@ console.log(Math.trunc(num));
   return (
     <Container  className='nav-Block m-0 ' fluid>
       <Row className='upperContent'>
-        <Col sm={6} className="p-0 m-0">
+        <Col sm={6} className="p-0 m-0 col-12 col-sm-6">
         <p className='info'><img src={location}/> 589 5th Ave, NY 10024, USA</p>
         <p className='info'><img src={msg}/>info@skillgrodemo.com</p>
         </Col>
-        <Col sm={6} className='text-end m-0 p-0'>
+        <Col sm={6} class="text-lg-end text-start m-0 p-0 col-12 col-sm-6">
           <p><img src={Call}/>Call us:+123 599 8989</p>
           <p>Follow Us On :
             <img src={facebook}/>
