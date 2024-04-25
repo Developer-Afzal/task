@@ -37,10 +37,10 @@ console.log(Math.trunc(num));
         </Col>
       </Row>
       <Row className='nav-LowerContent'>
-        <Col className='border-2 col-4 col-sm-2'>
+        <Col className='border-2 col-4 col-lg-2'>
         <img className='logo w-100' src={Logo}/>
         </Col>
-        <Col className=' col-12 col-sm-4  d-sm-block order-3 order-sm-0'>
+        <Col className=' col-12 col-lg-4  d-lg-block order-3 order-lg-0'>
         <ul className='d-inline d-sm-flex'>
             <li>Home <img src={DownArrow}DclassName='DownArrow'/></li>
             <li>Courses <img src={DownArrow} className='DownArrow'/></li>
@@ -49,7 +49,7 @@ console.log(Math.trunc(num));
             <li>Blog <img src={DownArrow} className='DownArrow'/></li>
           </ul>  
         </Col>
-        <Col className='col-12 col-sm-4 order-2 d-sm-block order-sm-0 searchBar-Block'>
+        <Col className='col-12 col-lg-4 order-2 d-lg-block order-lg-0 searchBar-Block'>
         <div className='searchBar d-flex w-100'>
             <img src={CategoryIcon}/>
             <span>Categories</span>
@@ -58,7 +58,7 @@ console.log(Math.trunc(num));
             <img src={purplecircle}/>
           </div>
         </Col>
-        <Col className=' col-7 col-sm-2 order-1 order-sm-0 p-0 m-0 text-end'>
+        <Col className=' col-7 col-lg-2 order-1 order-lg-0 p-0 m-0 text-end'>
         <div className='user'>
             <img src={WishlistIcon} alt="WishlistIcon" className='WishlistIcon'/>
             <img src={Cart} className='Cart'/>
