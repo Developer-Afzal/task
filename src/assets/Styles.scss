@@ -43,11 +43,33 @@
     font-size: 16px;
     line-height: 28px;
     color: #6D6C80;
-
-
     }
+    
+.FSxxl{
+    font-size:40px
+}
+.FSxl{
+    font-size: 22px;
+}
 
+.FSlg{
+    font-size: 20px;
+}
+.FSmd{
+    font-size:18px
+}
 
+.FSxmd{
+    font-size: 16px;
+}
+
+.FSsm{
+    font-size: 14px;
+}
+
+.FSxs{
+    font-size: 13px;
+}
 
     .BlueButton {
         background-color: $purple;
@@ -109,7 +131,6 @@
                 p {
                     display: inline;
                     color: #fff;
-                    font-size: 14px;
                     padding: 0 0 0 10px;
 
                     img {
@@ -118,51 +139,25 @@
                 }
             }
 
-            .col-sm-6:last-child {
-                padding-left: 10px;
-            }
+            
         }
-
-        .nav-LowerContent {
-
-            padding: 24px 7% 0 7%;
-
-            ul {
-                margin-left: 5%;
-            }
-
-            .logo {
-                width: 153px;
-            }
-
-            .LowerContent-right {
-                justify-content: space-between;
-            }
-
-            .searchBar {
-                width: 70%;
+        .nav-LowerContent{
+            align-items: center;
+            padding: 24px 5% 0 5%;
+            flex-wrap: wrap;
+            .LowerContent-right{
                 justify-content: space-between;
                 align-items: center;
-                padding: 0 0 0 10px;
-                flex-shrink: 0;
-
-                input {
-                    width: 40%;
-
+                .searchBar {
+                    align-items: center;
+                    gap: 8px;
+                    border: 1px solid $Gray;
+                    border-radius: 30px;
+                    padding: 0 0 0 20px;
                 }
-
-                border: 1px solid $lightGray;
-                border-radius: 100px;
-            }
-
-            .user {
-                flex-shrink: 0;
-            }
-
-            .Cart {
-                padding: 0 5px;
             }
         }
+       
     }
 
     ul {
@@ -375,3 +370,35 @@
 
 }
 }
+
+
+
+//====== Responsive styling starts =======//
+@media(max-width:576px){
+    .FSsm{
+        font-size: 10px;
+    }
+
+    .nav-Block .upperContent {
+        padding: 10px 2%;
+    }
+
+    .nav-LowerContent{
+        .LowerContent-right{
+            .searchBar input{
+                width: 130px;
+            }
+        }
+    }
+
+    .nav-Block .nav-LowerContent {
+       gap: 10px;
+        padding: 10px 1% 0 1%;
+    }
+   
+   
+    .nav-LowerContent div:nth-of-type(2){
+        display: none;
+    }
+}
+

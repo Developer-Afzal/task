@@ -21,13 +21,13 @@ console.log(Math.trunc(num));
   return (
     <Container  className='nav-Block m-0 ' fluid>
       <Row className='upperContent'>
-        <Col sm={6} className="p-0 m-0 col-12 col-sm-6">
-        <p className='info'><img src={location}/> 589 5th Ave, NY 10024, USA</p>
-        <p className='info'><img src={msg}/>info@skillgrodemo.com</p>
+        <Col  sm={6} className="p-0 m-0 col-12">
+        <p className='info FSsm'><img src={location}/> 589 5th Ave, NY 10024, USA</p>
+        <p className='info FSsm'><img src={msg}/>info@skillgrodemo.com</p>
         </Col>
-        <Col sm={6} class="text-lg-end text-start m-0 p-0 col-12 col-sm-6">
-          <p><img src={Call}/>Call us:+123 599 8989</p>
-          <p>Follow Us On :
+        <Col sm={6} class="m-0 p-0 col-12 col-sm-6 text-lg-end text-start">
+          <p className='FSsm p-0'><img src={Call}/>Call us:+123 599 8989</p>
+          <p className='FSsm ps-3'>Follow Us On :
             <img src={facebook}/>
             <img src={twitter}/>
             <img src={Whatsapp}/>
@@ -36,10 +36,12 @@ console.log(Math.trunc(num));
           </p>
         </Col>
       </Row>
-      <Row className='nav-LowerContent '>
-        <Col sm={6} className='LowerContent-left d-flex p-0'>
+      <Row className='nav-LowerContent'>
+        <Col sm={2} className='LowerContent-left d-flex p-0 col-2'>
         <img className='logo' src={Logo}/>
-          <ul>
+        </Col>
+        <Col sm={4} className='col-10'>
+        <ul className='d-inline d-sm-flex'>
             <li>Home <img src={DownArrow}DclassName='DownArrow'/></li>
             <li>Courses <img src={DownArrow} className='DownArrow'/></li>
             <li>Pages <img src={DownArrow} className='DownArrow'/></li>
