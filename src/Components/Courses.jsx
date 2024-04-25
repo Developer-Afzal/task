@@ -17,27 +17,31 @@ const Courses = () => {
             <li>Business</li>
             <li>Development</li>
         </ul>
-        <Container>
-        <Row className='card-block'>
+        <Container fluid className='card-section'>
+        <Row className='card-block mx-auto'>
             <Col className='course-item' >
                 <img src={CardItem3} className='w-100'/>
+                <span>Development</span><span className='float-end pt-1'>(4.8 Reviews)</span>
                 <p className='SemiBold'>Learning JavaScript With Imagination</p>
-                <button className='BlueButton'>Enroll Now &rarr;</button>
+                <button className='BlueButton'>Enroll Now &rarr;</button><span className='float-end pt-1'>$19.00</span>
             </Col>
             <Col className='course-item' >
                 <img src={CardItem1} className='w-100'/>
+                <span>Design</span><span className='float-end pt-1'>(4.5 Reviews)</span>
                 <p className='SemiBold'>The Complete Graphic Design for Beginners</p>
-                <button className='BlueButton'>Enroll Now &rarr;</button>
+                <button className='BlueButton '>Enroll Now &rarr;</button><span className='float-end pt-1'>$23.00</span>
             </Col>
             <Col className='course-item' >
                 <img src={CardItem2} className='w-100'/>
+                <span>Marketing</span><span className='float-end pt-1'>(4.3 Reviews)</span>
                 <p className='SemiBold'>Learning Digital Marketing on Facebook</p>
-                <button className='BlueButton'>Enroll Now &rarr;</button>
+                <button className='BlueButton'>Enroll Now &rarr;</button><span className='float-end pt-1'>$34.00</span>
             </Col>
             <Col className='course-item' >
                 <img src={CardItem4} className='w-100'/>
+                <span>Business</span><span className='float-end pt-1'>(4.8 Reviews)</span>
                 <p className='SemiBold'>Financial Analyst Training & Investing Course</p>
-                <button className='BlueButton'>Enroll Now &rarr;</button>
+                <button className='BlueButton'>Enroll Now &rarr;</button> <span className='float-end pt-1'>$24.00</span>
             </Col>
         </Row>
         </Container>

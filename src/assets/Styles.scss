@@ -43,11 +43,33 @@
     font-size: 16px;
     line-height: 28px;
     color: #6D6C80;
-
-
     }
+    
+.FSxxl{
+    font-size:40px
+}
+.FSxl{
+    font-size: 22px;
+}
 
+.FSlg{
+    font-size: 20px;
+}
+.FSmd{
+    font-size:18px
+}
 
+.FSxmd{
+    font-size: 16px;
+}
+
+.FSsm{
+    font-size: 14px;
+}
+
+.FSxs{
+    font-size: 13px;
+}
 
     .BlueButton {
         background-color: $purple;
@@ -109,7 +131,6 @@
                 p {
                     display: inline;
                     color: #fff;
-                    font-size: 14px;
                     padding: 0 0 0 10px;
 
                     img {
@@ -118,51 +139,25 @@
                 }
             }
 
-            .col-sm-6:last-child {
-                padding-left: 10px;
-            }
+            
         }
-
-        .nav-LowerContent {
-
-            padding: 24px 7% 0 7%;
-
-            ul {
-                margin-left: 5%;
-            }
-
-            .logo {
-                width: 153px;
-            }
-
-            .LowerContent-right {
-                justify-content: space-between;
-            }
-
-            .searchBar {
-                width: 70%;
+        .nav-LowerContent{
+            align-items: center;
+            padding: 24px 5% 0 5%;
+            flex-wrap: wrap;
+            .LowerContent-right{
                 justify-content: space-between;
                 align-items: center;
-                padding: 0 0 0 10px;
-                flex-shrink: 0;
-
-                input {
-                    width: 40%;
-
+                .searchBar {
+                    align-items: center;
+                    gap: 8px;
+                    border: 1px solid $Gray;
+                    border-radius: 30px;
+                    padding: 0 0 0 20px;
                 }
-
-                border: 1px solid $lightGray;
-                border-radius: 100px;
-            }
-
-            .user {
-                flex-shrink: 0;
-            }
-
-            .Cart {
-                padding: 0 5px;
             }
         }
+       
     }
 
     ul {
@@ -281,12 +276,12 @@
 
 .course-Section{
     margin-top: 120px;
-    padding: 120px 12.5%;
+    padding: 120px 0 ;
     background: linear-gradient(299deg, rgba(245, 231, 240, 0.9754026611) 0%, rgba(192, 192, 221, 0.8493522409) 100%, rgba(22, 20, 57, 0.6840861345) 100%);
     ul{
         padding: 40px 0 14px 0;
         gap: 34px;
-        width: 690px;
+        max-width: 690px;
         border-bottom: 2px solid $Gray;
         li{
             cursor: pointer;
@@ -300,37 +295,54 @@
         padding: 26px;
         border: 1px solid $Gray;
         margin: 0 10px;
-        button{
-            width: 133px;
-            height: 40px;
-            font-size: 14px;
-            
-
-background: #FFC224;
-border: 1px solid #000000;
-box-shadow: 4px 4px 0px #3D3D3D;
-border-radius: 50px;
-color: #161439;
-
-
-
+        span{
+            font-size: 13px;
         }
-    }
-    .card-block{
-        padding: 50px  0 0 0;
-        gap: 30px;
         p{
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 25px;
-
-
+            height: 100px;
+        }
+        button{
+            width: fit-content;
+            font-size: 14px;
+            padding: 5px 7px;
+            font-family: 'Poppins';
+            background: #FFC224;
+            border: 1px solid #000000;
+            box-shadow: 4px 4px 0px #3D3D3D;
+            border-radius: 50px;
+            color: #161439;
         }
     }
+    .course-item > span:last-child{
+    color: $purple;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0  0 0 10px;
+    }
+    .card-section{
+        padding: 50px 0 0 0;
+        
+        .card-block{
+            width: min(83%, 1410px);
+            p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+    
+    
+            }
+        }
+    }
+    
 
 }
+
+// ===== Fotter Styling Starts here ====== ///
+
 .fotter-section{
 .upper-block{
     padding: 95px 100px;
@@ -358,3 +370,35 @@ color: #161439;
 
 }
 }
+
+
+
+//====== Responsive styling starts =======//
+@media(max-width:576px){
+    .FSsm{
+        font-size: 10px;
+    }
+
+    .nav-Block .upperContent {
+        padding: 10px 2%;
+    }
+
+    .nav-LowerContent{
+        .LowerContent-right{
+            .searchBar input{
+                width: 130px;
+            }
+        }
+    }
+
+    .nav-Block .nav-LowerContent {
+       gap: 10px;
+        padding: 10px 1% 0 1%;
+    }
+   
+   
+    .nav-LowerContent div:nth-of-type(2){
+        display: none;
+    }
+}
+

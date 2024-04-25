@@ -20,22 +20,22 @@ const Category = () => {
             <Col className="Category-itmBlock  d-flex align-items-center" sm={12} >
             <butto className="circulur-button">&larr;</butto>
 
-            <Col>
+            <Col className='d-none d-sm-block'>
                 <img src={C1} className='w-100'/>
                 <p>Graphic Design</p>
                 <p>(22)</p>
                 </Col> 
-                <Col>
+                <Col className='d-none d-sm-block'>
                 <img src={C2} className='w-100'/>
                 <p>Finance</p>
                 <p>(41)</p>
                 </Col> 
-                <Col>
+                <Col className='d-none d-sm-block'>
                 <img src={C3} className='w-100'/>
                 <p>Development</p>
                 <p>(29)</p>
                 </Col> 
-                <Col>
+                <Col className='d-none d-sm-block'>
                 <img src={C4} className='w-100'/>
                 <p>Marketing</p>
                 <p>(31)</p>

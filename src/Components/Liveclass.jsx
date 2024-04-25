@@ -7,7 +7,7 @@ const Liveclass = () => {
     <Container className='LiveClass-section'>
         <Row>
             <Col sm={6} className='Left-Block text-end'>
-                <img src={LiveClass} className='LiveClass'/>
+                <img src={LiveClass} className='LiveClass img-fluid'/>
             </Col>
             <Col sm={6} className='Right-Block px-0'>
                 <p className='medium'>Get More About Us</p>
