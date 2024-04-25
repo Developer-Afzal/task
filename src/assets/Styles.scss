@@ -398,8 +398,24 @@
         font-size: 28px;
     }
 
+    .banner-Block .LeftBanner{
+        padding: 20px 0 0 0;
+    }
+
     .fotter-section .upper-block{
         padding:25px 15px;
+        div{
+            padding: 20px 0 0 0;
+        }
+    }
+    .banner-Block .LeftBanner{
+        h4{
+            line-height: 44px;
+        }
+    }
+    .banner-Block .LeftBanner h4 span{
+        padding: 0 8px 1px 8px;
+        letter-spacing: 1px;
     }
     .fotter-section .lower-block{
         padding: 35px 0px;
