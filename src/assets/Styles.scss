@@ -124,10 +124,10 @@
         }
 
         .upperContent {
-            padding: 10px 7%;
+            padding: 10px 0%;
             background-color: $--naviBlue;
 
-            .col-sm-6 {
+            div {
                 p {
                     display: inline;
                     color: #fff;
@@ -145,15 +145,18 @@
             align-items: center;
             padding: 24px 5% 0 5%;
             flex-wrap: wrap;
-            .LowerContent-right{
-                justify-content: space-between;
-                align-items: center;
+                .searchBar-Block{
+
                 .searchBar {
                     align-items: center;
                     gap: 8px;
                     border: 1px solid $Gray;
                     border-radius: 30px;
                     padding: 0 0 0 20px;
+
+                    input{
+                        width: 50%;
+                    }
                 }
             }
         }
@@ -192,12 +195,10 @@
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 40px;
                 line-height: 60px;
                 color: #161439;
 
                 span {
-                    font-size: 40px;
                     padding: 0 20px 5px 20px;
                     color: #fff;
                     font-weight: 700;
@@ -374,21 +375,13 @@
 
 
 //====== Responsive styling starts =======//
-@media(max-width:576px){
+@media(max-width:667px){
     .FSsm{
         font-size: 10px;
     }
 
     .nav-Block .upperContent {
         padding: 10px 2%;
-    }
-
-    .nav-LowerContent{
-        .LowerContent-right{
-            .searchBar input{
-                width: 130px;
-            }
-        }
     }
 
     .nav-Block .nav-LowerContent {
@@ -399,6 +392,10 @@
    
     .nav-LowerContent div:nth-of-type(2){
         display: none;
+    }
+
+    .FSxxl{
+        font-size: 32px;
     }
 }
 

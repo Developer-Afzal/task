@@ -8,7 +8,7 @@ const Banner = () => {
     <Container className='banner-Block' fluid>
       <Row className='m-0 p-0'>
         <Col className='LeftBanner d-flex flex-column align-items-start justify-content-center  m-0' sm={6}>
-          <h4>Never Stop <span className='yellowBg'>Learning</span><br/> Life Never Stop Teaching</h4>
+          <h4 className='FSxxl'>Never Stop <span className='yellowBg FSxxl'>Learning</span><br/> Life Never Stop Teaching</h4>
             <p className='text-start'>
             Every teaching and learning journey is unique Following<br/>
 We'll help guide your way.
