@@ -22,7 +22,7 @@ console.log(Math.trunc(num));
     <Container  className='nav-Block m-0 ' fluid>
       <Row className='upperContent'>
         <Col className="d-flex col-12 col-sm-6">
-        <p className='info FSsm'><img src={location}/> 589 5th Ave, NY 10024, USA</p>
+        <p className='info FSsm px-0'><img src={location}/> 589 5th Ave, NY 10024, USA</p>
         <p className='info FSsm'><img src={msg}/>info@skillgrodemo.com</p>
         </Col>
         <Col className="d-flex col-12 col-sm-6">
