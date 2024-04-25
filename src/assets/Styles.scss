@@ -146,9 +146,9 @@
             padding: 24px 5% 0 5%;
             flex-wrap: wrap;
                 .searchBar-Block{
-
                 .searchBar {
                     align-items: center;
+                    justify-content: space-between;
                     gap: 8px;
                     border: 1px solid $Gray;
                     border-radius: 30px;
@@ -375,7 +375,7 @@
 
 
 //====== Responsive styling starts =======//
-@media(max-width:667px){
+@media(max-width:992px){
     .FSsm{
         font-size: 10px;
     }
@@ -395,7 +395,7 @@
     }
 
     .FSxxl{
-        font-size: 32px;
+        font-size: 28px;
     }
 }
 
