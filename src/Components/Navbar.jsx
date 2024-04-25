@@ -21,11 +21,11 @@ console.log(Math.trunc(num));
   return (
     <Container  className='nav-Block m-0 ' fluid>
       <Row className='upperContent'>
-        <Col  sm={6} className="p-0 m-0 col-12">
+        <Col className="d-flex col-12 col-sm-6">
         <p className='info FSsm'><img src={location}/> 589 5th Ave, NY 10024, USA</p>
         <p className='info FSsm'><img src={msg}/>info@skillgrodemo.com</p>
         </Col>
-        <Col sm={6} class="m-0 p-0 col-12 col-sm-6 text-lg-end text-start">
+        <Col className="d-flex col-12 col-sm-6">
           <p className='FSsm p-0'><img src={Call}/>Call us:+123 599 8989</p>
           <p className='FSsm ps-3'>Follow Us On :
             <img src={facebook}/>
@@ -33,31 +33,33 @@ console.log(Math.trunc(num));
             <img src={Whatsapp}/>
             <img src={Linkedin}/>
             <img src={Youtube}/>
-          </p>
+          </p> 
         </Col>
       </Row>
       <Row className='nav-LowerContent'>
-        <Col sm={2} className='LowerContent-left d-flex p-0 col-2'>
-        <img className='logo' src={Logo}/>
+        <Col className='border-2 col-4 col-sm-2'>
+        <img className='logo w-100' src={Logo}/>
         </Col>
-        <Col sm={4} className='col-10'>
+        <Col className=' col-12 col-sm-4  d-sm-block order-3 order-sm-0'>
         <ul className='d-inline d-sm-flex'>
             <li>Home <img src={DownArrow}DclassName='DownArrow'/></li>
             <li>Courses <img src={DownArrow} className='DownArrow'/></li>
             <li>Pages <img src={DownArrow} className='DownArrow'/></li>
             <li>Shop <img src={DownArrow} className='DownArrow'/></li>
             <li>Blog <img src={DownArrow} className='DownArrow'/></li>
-          </ul>
+          </ul>  
         </Col>
-        <Col sm={6} className='LowerContent-right d-flex p-0'>
-          <div className='searchBar d-flex'>
+        <Col className='col-12 col-sm-4 order-2 d-sm-block order-sm-0 searchBar-Block'>
+        <div className='searchBar d-flex w-100'>
             <img src={CategoryIcon}/>
             <span>Categories</span>
             <img src={DownArrow} className='DownArrow'/>
             <input placeholder='Search For Course . . .'/>
             <img src={purplecircle}/>
           </div>
-          <div className='user'>
+        </Col>
+        <Col className=' col-7 col-sm-2 order-1 order-sm-0 p-0 m-0 text-end'>
+        <div className='user'>
             <img src={WishlistIcon} alt="WishlistIcon" className='WishlistIcon'/>
             <img src={Cart} className='Cart'/>
             <button className='btn'>Log in</button>
