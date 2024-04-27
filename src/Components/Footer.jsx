@@ -17,7 +17,7 @@ const Footer = () => {
           <p>463 7th Ave, NY 10018, USA</p>
           <p>+123 88 9900 456</p>
         </Col>
-        <Col sm={3} className='col-6'>
+        <Col className='col-6 col-sm-2 col-lg-3 '>
           <p className='heading'>Useful Links</p>
           <p>Our values</p>
           <p>Our advisory board</p>
@@ -34,7 +34,7 @@ const Footer = () => {
           <p>Instructor</p>
           <p>Events</p>
         </Col>
-        <Col sm={2} className='col-12'>
+        <Col sm={2} className='col-12 col-lg-2'>
           <p className=' semiBold heading'>Get In Touch</p>
           <p>when an unknown printer took galley type and scrambled</p>
           <div className='social-icon d-flex align-items-center '>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </Col>
       </Row>
-      <Row className='lower-block'>
+      <Row className='lower-block text-center text-sm-start'>
         <p>© 2010-2024 skillgro.com. All rights reserved.</p>
       </Row>
     </Container>

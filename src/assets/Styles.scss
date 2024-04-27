@@ -71,6 +71,7 @@
     font-size: 13px;
 }
 
+
     .BlueButton {
         background-color: $purple;
         max-width: 230px;
@@ -117,6 +118,7 @@
         border: none;
         outline: none;
     }
+    
 
     .nav-Block {
         .logo {
@@ -124,7 +126,7 @@
         }
 
         .upperContent {
-            padding: 10px 0%;
+            padding: 10px 6%;
             background-color: $--naviBlue;
 
             div {
@@ -143,7 +145,8 @@
         }
         .nav-LowerContent{
             align-items: center;
-            padding: 24px 5% 0 5%;
+            padding: 24px 5% 24px 5%;
+            background-color: $WhiteColor;
             flex-wrap: wrap;
                 .searchBar-Block{
                 .searchBar {
@@ -184,7 +187,6 @@
     }
 
     .banner-Block {
-        margin-top: 24px;
         height: auto;
         background: linear-gradient(299deg, rgba(245, 231, 240, 0.9754026610644257) 0%, rgba(192, 192, 221, 0.8493522408963585) 100%, rgba(22, 20, 57, 0.6840861344537815) 100%);
 
@@ -279,13 +281,18 @@
     margin-top: 120px;
     padding: 120px 0 ;
     background: linear-gradient(299deg, rgba(245, 231, 240, 0.9754026611) 0%, rgba(192, 192, 221, 0.8493522409) 100%, rgba(22, 20, 57, 0.6840861345) 100%);
-    ul{
-        padding: 40px 0 14px 0;
-        gap: 34px;
-        max-width: 690px;
-        border-bottom: 2px solid $Gray;
-        li{
-            cursor: pointer;
+    // ul{
+    //     padding: 40px 0 14px 0;
+    //     gap: 34px;
+    //     max-width: 690px;
+    //     border-bottom: 2px solid $Gray;
+    //     li{
+    //         cursor: pointer;
+    //     }
+    // }
+    .tab{
+        span{
+            padding: 0 8px;
         }
     }
     .course-item{
@@ -296,6 +303,7 @@
         padding: 26px;
         border: 1px solid $Gray;
         margin: 0 10px;
+        width: 250px !important;
         span{
             font-size: 13px;
         }
@@ -313,6 +321,7 @@
             border-radius: 50px;
             color: #161439;
         }
+
     }
     .course-item > span:last-child{
     color: $purple;
@@ -385,8 +394,8 @@
     }
 
     .nav-Block .nav-LowerContent {
-       gap: 10px;
-        padding: 10px 1% 0 1%;
+        gap: 10px;
+        padding: 10px 1% 10px 1%;
     }
    
    
@@ -394,9 +403,7 @@
         display: none;
     }
 
-    .FSxxl{
-        font-size: 28px;
-    }
+    
 
     .banner-Block .LeftBanner{
         padding: 20px 0 0 0;
@@ -417,8 +424,32 @@
         padding: 0 8px 1px 8px;
         letter-spacing: 1px;
     }
+
+    .LiveClass-section{
+        margin-top: 20px;
+        .Left-Block{
+            padding: 30px;
+        }
+    }
     .fotter-section .lower-block{
+        p{
+            display: inline;
+            font-size: 14px;
+        }
         padding: 35px 0px;
     }
+    
+    .slider-container{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .FSxxl{
+        font-size: 28px;
+    }
+    .FSxmd{
+        font-size: 12px;
+    }
+    
+    
 }
 

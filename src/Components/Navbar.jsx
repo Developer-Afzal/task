@@ -19,7 +19,8 @@ const Navbar = () => {
 let num = 3323.2323;
 console.log(Math.trunc(num));
   return (
-    <Container  className='nav-Block m-0 ' fluid>
+    <>
+    <Container  className='nav-Block m-0' fluid>
       <Row className='upperContent'>
         <Col className="d-flex col-12 col-sm-6">
         <p className='info FSsm px-0'><img src={location}/> 589 5th Ave, NY 10024, USA</p>
@@ -36,7 +37,10 @@ console.log(Math.trunc(num));
           </p> 
         </Col>
       </Row>
-      <Row className='nav-LowerContent'>
+      
+    </Container>
+    <Container className='nav-Block m-0 sticky-top' fluid>
+    <Row className='nav-LowerContent '>
         <Col className='border-2 col-4 col-lg-2'>
         <img className='logo w-100' src={Logo}/>
         </Col>
@@ -67,6 +71,7 @@ console.log(Math.trunc(num));
         </Col>
       </Row>
     </Container>
+    </>
   )
 }
 
